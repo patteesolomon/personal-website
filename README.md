@@ -1,1 +1,1 @@
-hi
+This is personal website that gives a sumary about me, list some projects that ive worked on, and gives links to github and linked in.
