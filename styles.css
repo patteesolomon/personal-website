@@ -1,52 +1,39 @@
 body{
-    background: linear-gradient(salmon, skyblue);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background:url(background.jpg) no-repeat;
+    background-size: cover;
     }
-    
-    #home-tab{
-        background-color: skyblue;
-        border-style: solid;
-        border-width: 5px;
-        border-radius: 30px;
-        border-color: brown;
-        padding: 4px;
-        position:absolute;
-        right: 20px;
-        top: 1px;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
-    #about-tab{
-        background-color: skyblue;
-        border-style: solid;
-        border-width: 5px;
-        border-radius: 30px;
-        border-color: brown;
-        padding: 4px;
-        position:absolute;
-        right: 130px;
-        top: 1px;
+    #name{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    #portfolio-tab{
-        background-color: skyblue;
-        border-style: solid;
-        border-width: 5px;
-        border-radius: 30px;
-        border-color: brown;
-        padding: 4px;
-        position:absolute;
-        right: 245px;
-        top: 1px;
+    nav a{
+        text-decoration: none;
+        color: black;
+        padding: 0 1.5rem;
     }
-    #profile-img{
-        position:absolute;
-        left: 15px;
+    .info-body{
+        width: 450px;
+        padding: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        color: white;
     }
-    #mission-statement{
-        position:absolute;
-        left: 250px;
+    .profile-img{
+        border-radius: 50%;
     }
-    #quote-wrd{
-        position:absolute;
-        left: 500px;
-        text-align: center text horizontally;
+    .social-icons{
+        width: 450px;
+        padding: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .social-icons a{
+        color: white;
+        font-size: 50px;
     }
